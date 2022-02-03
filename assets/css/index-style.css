@@ -1,0 +1,74 @@
+/*****main designs*****/
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+
+  
+  background-color: bisque;
+}
+body {
+  margin: 0px;
+}
+img {
+  width: 100%;
+}
+.imag-wrapper {
+  display: flex;
+}
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  margin-top: 20px;
+  padding: 25px;
+}
+
+/*****navbar*****/
+.nav-links {
+  display: flex;
+  flex-wrap: wrap;  
+  list-style: none;
+  gap: 15px;
+
+  font-size: 24px;
+  margin-right: 10px;
+  font-family: 'EB Garamond', serif;
+}
+/*****font styless*****/
+.nav-links a {
+  text-decoration: none;
+  color: black;
+}
+
+.tittle-container {
+  margin-left: 10px;
+  font-family: 'EB Garamond', serif;
+}
+
+.image-container {
+  text-align: center;
+  margin-top: 15px;
+}
+.image-content {
+  background-color: lightcyan;
+  border-radius: 8px;
+  margin: 15px;
+  padding: 15px;
+}
+
+.image-content h2, 
+.paragraph-container h2 {
+  font-family: 'Dancing Script', cursive;
+}
+.image-content h3 ,p {
+  font-family: 'Mali', cursive;
+}
+.content-container ,
+.paragraph-container {
+ padding: 10px;
+}
+.content-container h2{
+  font-family: 'Dancing Script', cursive;
+}

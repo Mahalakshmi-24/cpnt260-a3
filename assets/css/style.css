@@ -1,0 +1,178 @@
+/***Flex***/
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+
+  
+  background-color: bisque;
+}
+
+body {
+  margin: 0px;
+}
+
+.nav-links {
+  display: flex;
+  flex-wrap: wrap;  
+  list-style: none;
+  gap: 15px;
+
+
+  font-size: 24px;
+  margin-right: 10px;
+  font-family: 'Source Serif 4', sans-serif;
+}
+
+.card-layout1,
+.card-layout2 {
+  display: flex;
+  gap: 35px;
+  margin: 30px;
+  font-family: 'Zilla Slab', serif;
+}
+
+
+/*****font styless*****/
+.nav-links a {
+  text-decoration: none;
+  color: black;
+}
+
+.tittle-container {
+  font-family: 'Source Serif 4', sans-serif;
+  margin-left: 15px;
+}
+.title-container {
+  background-image: url("https://anna-spa.ca/images/bg-image-4.jpg");
+  background-size: cover;
+  font-family: 'Source Serif 4', sans-serif;
+}
+
+.title-container h1 {
+  padding: 50px 50px 10px 50px;
+  color: ghostwhite;
+}
+
+.title-container h2 {
+  color: ghostwhite;
+  padding: 0px 50px 50px 50px;
+}
+.content-container {
+  font-family: 'Zilla Slab', serif;
+  margin: 10px;
+  line-height: 26px;
+  font-size: 18px;
+}
+
+
+.card1,
+.card4 {
+  background-color: #db9b98;
+  box-shadow: 0px 1px 8px black;
+  padding: 25px;
+}
+
+.card2  {
+  background-color: #edd39c;
+  box-shadow: 0px 1px 8px black;
+  padding: 20px;
+}
+.card3  {
+  background-color: #aaaf98;
+  box-shadow: 0px 1px 8px black;
+  padding: 20px;
+}
+.massage ,
+.medical ,
+.laser,
+.esthetics {
+  height: 125px;
+    width: 125px;
+  
+}
+
+.card1-btn a, 
+.card2-btn a,
+.card3-btn a,
+.card4-btn a
+{
+  text-decoration: none;
+ color: black;
+}
+
+.card1-btn a, 
+.card2-btn a,
+.card3-btn a,
+.card4-btn a{
+  
+  background-color: ghostwhite;
+    border-radius: 5px;
+    padding: 5px;
+}
+.card1,
+.card2,
+.card3,
+.card4{
+text-align: center;
+padding: 20px;
+}
+
+.card1-content,
+.card2-content,
+.card3-content,
+.card4-content {
+  max-width: 20ch;
+  font-size: 18px;
+}
+
+.products {
+  margin: 10px;
+  font-family: 'Zilla Slab', serif;
+}
+
+.product1,
+.product2 {
+  display: flex;
+  margin-top: 30px;
+  
+}
+
+.product1-content,
+.product2-content {
+  padding: 16px;
+    font-size: 17px;
+    line-height: 23px;
+}
+
+.beauty,
+.dermalogica {
+  width: 80%;
+  transition: transform .2s; 
+}
+
+.dermalogica:hover,
+.beauty:hover  {
+  transform: scale(1.1);
+}
+
+.footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 25px;
+}
+
+
+
+/***Media query***/
+@media screen and (max-width: 835px) {
+  .card-layout1{
+    flex-wrap: wrap;
+  }
+  .product1-content p,
+  .product2-content p{
+    display: none;
+  }
+}
