@@ -1,3 +1,74 @@
+/**Grid layout**/
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  min-width: 500px;
+  max-width :1100;
+
+}
+/***Gallery image***/
+img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+
+}
+
+.face {
+  width: 89%;
+  height:79%;
+  margin-left: 35px;
+}
+
+figure {
+  display: grid;
+  height:100%;
+
+}
+
+
+/***2 row span image***/
+.third {
+  grid-row: span 2;
+}
+
+/***Full width image***/
+.sixth {
+  grid-column: 1 / -1;
+}
+
+/***Image text***/
+figcaption {
+justify-self: end;
+align-self: end;
+text-align: end;
+font-size: 20px;
+}
+.first,
+.second,
+.third,
+.fourth,
+.fifth,
+.sixth {
+  margin: 25px;
+}
+
+/***Othar than image***/
+.nav-links a {
+  text-decoration: none;
+  color: black;
+}
+
+.header {
+  font-family: 'Libre Baskerville', serif;
+  margin-left: 15px;
+}
+
+.tittle-container {
+  font-family: 'Libre Baskerville', serif;
+  margin-left: 15px;
+}
+
 .main-container {
   display: flex;
   flex-wrap: wrap;
@@ -30,47 +101,6 @@ body {
 flex-wrap: wrap;
 }
 
-.grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-  min-width: 500px;
-  max-width :1100;
-}
-
-img {
-  object-fit: cover;
-  height: 100%;
-  width: 100%;
-}
-.face {
-  width: 89%;
-  height:79%;
-  margin-left: 35px;
-}
-
-figure {
-  display: flex;
-
-}
-.third {
-  grid-row: span 2;
-}
-.sixth {
-  grid-column: 1 / -1;
-}
-
-.nav-links a {
-  text-decoration: none;
-  color: black;
-}
-.header {
-  font-family: 'Libre Baskerville', serif;
-  margin-left: 15px;
-}
-.tittle-container {
-  font-family: 'Libre Baskerville', serif;
-  margin-left: 15px;
-}
 
 .footer {
   background-color: black;
