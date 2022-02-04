@@ -1,5 +1,11 @@
 # gallery
 
+## Student Details
+
+   - Student name : Mahalakshmi Seenivasan
+
+   - Course details : Web Developer  
+
 ## Attributions
 
  - Photo by [Andrea Piacquadio](https://www.pexels.com/photo/woman-in-wrapped-in-white-towel-lying-on-bed-with-eyes-closed-3757942/? 
